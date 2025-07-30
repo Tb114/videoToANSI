@@ -237,10 +237,10 @@ def create_color_ascii_html(video_path, fps, output_file="color_ascii_video.html
 
 if __name__ == "__main__":
     # 配置参数
-    VIDEO_PATH = "11.mp4"
+    VIDEO_PATH = "input.mp4"
     OUTPUT_FILE = "color_ascii_video.html"
     CHARACTER_WIDTH = 180  # 字符宽度
-    FPS = 10
+    FPS = 60
     BACKGROUND_COLOR = "#000"  # 背景颜色
     
     if not os.path.isfile(VIDEO_PATH):
